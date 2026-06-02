@@ -1,7 +1,7 @@
 from rest_framework import generics
 from rest_framework.response import Response
 from .models import CalculationResult, AmortizationSchedule
-from .serializers import CalculationResultSerializer, AmortizationScheduleSerializer
+from .serializers import CalculationResultSerializer, AmortizationScheduleSerializer, CalculationTriggerSerializer
 from core.pagination import StandardResultsSetPagination
 
 
